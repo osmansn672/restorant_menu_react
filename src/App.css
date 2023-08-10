@@ -1,0 +1,76 @@
+/* App.css */
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #3e2723; /* Koyu kahverengi arka plan */
+  color: #daa520; /* Koyu sarı metin renk */
+}
+
+.header {
+  background-color: #3e2723; /* Koyu kahverengi arka plan */
+  color: #f5f5dc; /* Kum sarısı metin renk */
+  padding: 10px;
+}
+.h1 {
+  font-size: 50px; /* İstediğiniz büyüklüğü ayarlayabilirsiniz */
+  color: #daa520; /* İstediğiniz metin rengini kullanabilirsiniz */
+}
+
+.menu {
+  margin: 20px;
+  background-color: #f5f5dc; /* Kum sarısı arka plan */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-tabs button {
+  margin: 0 10px;
+  padding: 5px 15px;
+  font-size: 16px;
+  border: none;
+  background-color: #daa520; /* Koyu sarı buton renk */
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.menu-tabs button:focus {
+  outline: none;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f5f5dc; /* Kum sarısı arka plan */
+  border-radius: 5px;
+}
+
+.menu-item img {
+  max-width: 100%;
+  max-height: 150px;
+  width: auto;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.food-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f5f5dc; /* Kum sarısı arka plan */
+  border-radius: 5px;
+}
+
+.food-item img {
+  max-width: 100%;
+  max-height: 150px;
+  width: auto;
+  height: auto;
+  margin-bottom: 10px;
+}
